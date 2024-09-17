@@ -1,12 +1,12 @@
 # AEDS_03 - Tp01
 
-Neste trabalho prático foi adcionado uma nova classe "Tarefa" para as funções do CRUD em que é gerenciado atraves de um Hash com índice direto
+Neste trabalho prático foi adcionado uma nova classe "Tarefa" para as funções do CRUD em que é gerenciado através de um Hash com índice direto
 
 ## Classes e Métodos criados
 
 ### Classe Tarefa
 
-uma das entidades principais do CRUD iqual a Pet e Pessoa
+uma das entidades principais do CRUD iqual à Pet e Pessoa
 
 * ## Atributos:
 
@@ -17,7 +17,7 @@ uma das entidades principais do CRUD iqual a Pet e Pessoa
   - Byte status // 0 - Pendente, 1 - Em progresso e 2 - Concluida
   - Byte prioridade // 0 - Baixa, 1 - Média e 2 - Alta
  
-* ## Metodos:
+* ## Métodos:
 
   - setId(int id)
   - getId()
@@ -30,7 +30,7 @@ uma das entidades principais do CRUD iqual a Pet e Pessoa
 
 ## Experiência
 
-  Achamos que a lapide estava com algum bug, porque apos deletar continuava marcando que estava la, mas era o reorganizar que estava causando isso
+  Achamos que a lápide estava com algum bug, porque após deletar continuava marcando que estava lá, mas era o reorganizar que estava causando isso.
 
 ## Perguntas
 
