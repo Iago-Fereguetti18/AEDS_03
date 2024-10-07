@@ -1,5 +1,11 @@
 # AEDS_03 - Tp01
 
+## Alunos integrantes da equipe
+
+* Diego Moreira Rocha
+* Luan Barbosa Rosa Carrieiros
+* Iago Fereguetti Ribeiro 
+
 Neste trabalho prático, foi adicionada uma nova classe 'Tarefa' para as funções do CRUD, que são gerenciadas por meio de um Hash com índice direto.
 
 ## Classes e Métodos criados
