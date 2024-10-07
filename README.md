@@ -1,4 +1,4 @@
-# AEDS_03 - Tp01
+# AEDS III - TP01
 
 ## Alunos integrantes da equipe
 
