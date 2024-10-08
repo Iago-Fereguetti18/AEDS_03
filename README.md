@@ -12,27 +12,45 @@ Neste trabalho prático, foi adicionada uma nova classe 'Tarefa' para as funçõ
 
 ### Classe Tarefa
 
-Uma das entidades principais do CRUD que é igual à Pet e Pessoa trabalhadas em sala. 
+A classe Tarefa representa uma tarefa com atributos como id, nome, data de criação, data de conclusão, status e prioridade. A classe implementa a 
+interface Registro, permitindo a manipulação de dados em formato binário.
 
 * ## Atributos:
 
-  - Int id
-  - String nome
-  - LocalDate dataCriacao
-  - LocalDate dataConclusao
-  - Byte status // 0 - Pendente, 1 - Em progresso e 2 - Concluida
-  - Byte prioridade // 0 - Baixa, 1 - Média e 2 - Alta
- 
+  - id: Identificador único da tarefa.
+  - nome: Nome da tarefa.
+  - dataCriacao: Data de criação da tarefa.
+  - dataConclusao: Data de conclusão da tarefa.
+  - status: Status da tarefa (0 - Pendente, 1 - Em Progresso, 2 - Concluída).
+  - prioridade: Prioridade da tarefa (0 - Baixa, 1 - Média, 2 - Alta).
+
+* ## Construtores:
+   
+  - Tarefa(): Construtor padrão que inicializa a tarefa com valores padrão.
+  - Tarefa(String nome, LocalDate dataCriacao, LocalDate dataConclusao, byte status, byte prioridade):
+  - Construtor que inicializa a tarefa com os valores fornecidos, exceto o id.
+  - Tarefa(int id, String nome, LocalDate dataCriacao, LocalDate dataConclusao, byte status, byte prioridade):
+  - Construtor que inicializa a tarefa com todos os valores fornecidos.
+    
 * ## Métodos:
 
-  - setId(int id)
-  - getId()
-  - setNome(String nome)
-  - getNome()
-  - toByteArray()
-  - fromByteArray(byte[] b)
-  - toString()
-  - compareTo(Object p)
+   - setId(int id): Define o id da tarefa.
+   - getId(): Retorna o id da tarefa.
+   - setNome(String nome): Define o nome da tarefa.
+   - getNome(): Retorna o nome da tarefa.
+   - setDataCriacao(LocalDate dataCriacao): Define a data de criação da tarefa.
+   - getDataCriacao(): Retorna a data de criação da tarefa.
+   - setDataConclusao(LocalDate dataConclusao): Define a data de conclusão da tarefa.
+   - getDataConclusao(): Retorna a data de conclusão da tarefa.
+   - setStatus(byte status): Define o status da tarefa.
+   - getStatus(): Retorna o status da tarefa.
+   - setPrioridade(byte prioridade): Define a prioridade da tarefa.
+   - getPrioridade(): Retorna a prioridade da tarefa.
+   - toByteArray(): Converte a tarefa para um array de bytes.
+   - fromByteArray(byte[] b): Converte um array de bytes para uma tarefa.
+   - toString(): Retorna uma representação em string da tarefa.
+   - compareTo(Object p): Compara a tarefa com outra tarefa com base no id.
+  
 
 ## Experiência
 
