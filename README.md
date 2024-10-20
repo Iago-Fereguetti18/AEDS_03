@@ -49,7 +49,7 @@ interface Registro, permitindo a manipulação de dados em formato binário.
    - toByteArray(): Converte a tarefa para um array de bytes.
    - fromByteArray(byte[] b): Converte um array de bytes para uma tarefa.
    - toString(): Retorna uma representação em string da tarefa.
-   - compareTo(Object p): Compara a tarefa com outra tarefa com base no id.
+   - compareTo(Object p): Compara a tarefa com outra tarefa com base no id. 
   
 
 ## Experiência
